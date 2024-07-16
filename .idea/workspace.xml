@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36df6624-63bb-425f-bdf7-c1ed38102f0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drive_Firefox/geckodriver-v0.34.0-linux-aarch64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/76cf9bb8-5f48-4b1e-b0c2-33ed5af2ebe0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b44fa3e6-3a6d-46b8-a06a-cac046d76ac7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d139b4b6-a609-4f01-9149-f1466f52bbf3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f0994c4d-47b0-45de-b18c-dc69a740f237-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learningselenium/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0230.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0233.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab0236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_11_july_24/lab238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_13_july_24/lab0239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_13_july_24/lab0240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learningselenium/ex_selenium_13_july_24/lab0241.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2j8OR31EJGzow55YS0MT64j73Yh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.lab0230.executor": "Run",
+    "Application.lab0231.executor": "Run",
+    "Application.lab0233.executor": "Run",
+    "Application.lab0239.executor": "Run",
+    "Application.lab0240.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.lab0241.executor": "Run",
+    "TestNG.lab238.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/karam/Documents/Projects/LearningSeliniumATB6x/Drive_Firefox"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Drive_Firefox" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.lab0241">
+    <configuration name="lab0231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learningselenium.ex_selenium_11_july_24.lab0231" />
+      <module name="LearningSeleniumATB6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learningselenium.ex_selenium_11_july_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab0239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learningselenium.ex_selenium_13_july_24.lab0239" />
+      <module name="LearningSeleniumATB6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learningselenium.ex_selenium_13_july_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab0240" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learningselenium.ex_selenium_13_july_24.lab0240" />
+      <module name="LearningSeleniumATB6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learningselenium.ex_selenium_13_july_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab0241" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learningselenium.ex_selenium_13_july_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learningselenium.ex_selenium_13_july_24" />
+      <option name="MAIN_CLASS_NAME" value="com.learningselenium.ex_selenium_13_july_24.lab0241" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab238" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learningselenium.ex_selenium_11_july_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learningselenium.ex_selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.learningselenium.ex_selenium_11_july_24.lab238" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.lab0241" />
+        <item itemvalue="Application.lab0240" />
+        <item itemvalue="Application.lab0239" />
+        <item itemvalue="TestNG.lab238" />
+        <item itemvalue="Application.lab0231" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36df6624-63bb-425f-bdf7-c1ed38102f0c" name="Changes" comment="" />
+      <created>1720765232390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720765232390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
