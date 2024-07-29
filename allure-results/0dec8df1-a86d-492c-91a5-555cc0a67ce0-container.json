@@ -1,0 +1,1 @@
+{"uuid":"0dec8df1-a86d-492c-91a5-555cc0a67ce0","name":"LearningSeliniumATB6x","children":["a25d1536-4897-426c-b6cf-70cc906b604d"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1721819303264,"stop":1721819314768}],"afters":[],"start":1721819303209,"stop":1721819319628}

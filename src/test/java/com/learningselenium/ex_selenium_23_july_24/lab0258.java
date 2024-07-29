@@ -6,13 +6,16 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.List;
 
-public class lab0257 {
+public class lab0258 {
     EdgeDriver driver;
 
     @BeforeTest
@@ -23,20 +26,23 @@ public class lab0257 {
         driver = new EdgeDriver(options);
     }
     @Test(groups = "QA")
-    @Description("Test Case SVG")
-    public void SVG() throws InterruptedException {
-        driver.manage().window().maximize();
-        String URL = "https://flipkart.com";
-        driver.get(URL);
-        driver.manage().window().maximize();
+    @Description("Test Case SVGIndiaMap")
+    public void SVGIndiaMap() throws InterruptedException {
+        driver.get("https://www.amcharts.com/svg-maps/?map=india");
 
-        WebElement searchbox = driver.findElement(By.xpath("//input[@name=\"q\"]"));
-        searchbox.sendKeys("MacMini");
+        WebDriverWait tablewait = new WebDriverWait(driver, Duration.ofSeconds(3000));
+        tablewait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[name()=\"svg\"]")));
 
-        List<WebElement> svgsearch = driver.findElements(By.xpath("//*[name()=\"svg\"]"));
-        svgsearch.get(0).click();
+       List<WebElement> states =driver.findElements(By.xpath("//*[name()=\"svg\"]/*[name()=\"g\"][7]/*[name()=\"g\"]/*[name()=\"g\"]/*[name()=\"path\"]"));
+        for(WebElement state : states){
+            System.out.println(state.getAttribute("aria-label"));
+            if(state.getAttribute("aria-label").contains("Haryana")){
+                state.click();
+            }
+        }
 
     }
+
     @AfterTest
     public void closeBrowser() {
         try {

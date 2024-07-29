@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class lab0256 {
+public class lab0257 {
     EdgeDriver driver;
 
     @BeforeTest
@@ -23,25 +23,27 @@ public class lab0256 {
         driver = new EdgeDriver(options);
     }
     @Test(groups = "QA")
-    @Description("Test Case Description")
-    public void testLab328() throws InterruptedException {
+    @Description("Test Case SVG")
+    public void SVG() throws InterruptedException {
         driver.manage().window().maximize();
-        String URL = "https://awesomeqa.com/webtable1.html";
+        String URL = "https://flipkart.com";
         driver.get(URL);
         driver.manage().window().maximize();
 
-        WebElement table = driver. findElement(By.xpath("//table[@summary='Sample Table']/tbody"));
-        List<WebElement> rows_tables = table.findElements(By.tagName("tr"));
-        System.out.println(rows_tables.size());
-        for (int i = 0; i < rows_tables.size(); i++) {
-            List<WebElement> col = rows_tables.get(i).findElements(By.tagName("td"));
-            for(WebElement c:col){
-                System.out.println(c.getText());
-            }
-        }
+        WebElement searchbox = driver.findElement(By.xpath("//input[@name=\"q\"]"));
+        searchbox.sendKeys("MacMini");
+
+        List<WebElement> svgsearch = driver.findElements(By.xpath("//*[name()=\"svg\"]"));
+        svgsearch.get(0).click();
+
     }
     @AfterTest
     public void closeBrowser() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         driver.quit();
     }
 }
